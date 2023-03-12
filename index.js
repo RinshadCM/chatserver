@@ -10,7 +10,7 @@ const server=http.createServer(app)
 
 const io= new Server(server, {
     cors:{
-        origin: "https://abcdrio.netlify.app",
+        origin: "https://roomaterio.netlify.app",
         methods:["GET","POST"]
     }
 })
